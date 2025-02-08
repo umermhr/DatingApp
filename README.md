@@ -54,14 +54,6 @@ dotnet run
 - Update `environment.ts` in Angular with the correct **API URL**.
 - Update `appsettings.json` in the backend with the correct **database connection string**.
 
-## API Endpoints
-- `POST /api/auth/register` - User Registration
-- `POST /api/auth/login` - User Login
-- `GET /api/users` - Get List of Users
-- `GET /api/users/{id}` - Get User Profile
-- `POST /api/messages` - Send Message
-- `GET /api/matches` - Get Matched Users
-
 ## Technologies Used
 - **Frontend**: Angular, TypeScript, Angular Material, RxJS
 - **Backend**: ASP.NET Core, Entity Framework Core, JWT Authentication
@@ -70,6 +62,4 @@ dotnet run
 
 ## Summary
 This dating app provides a robust matchmaking experience with a user-friendly interface, secure authentication, and real-time messaging. Follow the setup instructions to deploy and start using the application.
-
-Let us know if you have any questions or need further customizations!
 
